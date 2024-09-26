@@ -1,0 +1,26 @@
+asgiref==3.8.1
+awsebcli==3.21.0
+botocore==1.35.25
+cement==2.10.14
+certifi==2024.8.30
+charset-normalizer==3.3.2
+colorama==0.4.6
+Django @ file:///C:/ci_311/django_1676469589007/work
+django-cors-headers==4.4.0
+idna==3.10
+jmespath==1.0.1
+pathspec==0.10.1
+pillow @ file:///C:/b/abs_95ls_qh4c2/croot/pillow_1714398870615/work
+pypiwin32==223
+python-dateutil==2.9.0.post0
+pywin32==306
+PyYAML==6.0.2
+reportlab @ file:///C:/b/abs_cbkvcf7sza/croot/reportlab_1702056115815/work
+requests==2.32.3
+semantic-version==2.10.0
+six==1.16.0
+sqlparse @ file:///C:/b/abs_88361ub_qu/croot/sqlparse_1690904577514/work
+termcolor==2.4.0
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+urllib3==1.26.20
+wcwidth==0.2.13

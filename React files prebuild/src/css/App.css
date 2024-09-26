@@ -1,0 +1,121 @@
+body, #root {
+    background: #101D2C;
+    background-size: 100% 100vh;
+    height: 100vh;
+    width: 100%;
+}
+
+.p-4{
+    padding: 1rem !important;
+}
+
+.div-dim {
+    width: 90%;
+    height: 90%;
+}
+
+.div-dim_menu {
+    width: 80%;
+    height: 75%;
+    background-color: lightgray !important;
+}
+
+.menu-div {
+    width: 15%;
+    border-right: 1px solid grey;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.content-div {
+    height: 100%;
+    width: 85%;
+    margin-left: 0;
+}
+
+.menu-img {
+    width: 85%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #1F1F1F;
+    cursor: pointer;
+}
+
+.mt-4 {
+    margin-top: 0 !important;
+}
+
+button {
+    padding: 0.8rem 0;
+    text-align: center;
+    border: 1px groove #1F1F1F;
+}
+
+.row>*{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#notifications {
+    height: 100%;
+    overflow-y: auto;
+}
+
+#notifications > div {
+    padding: 1rem 0 0 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#notifications > div div {
+    background: white;
+    margin-bottom: 0;
+    color: black;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-left: -0.5rem;
+    display: none;
+}
+
+#notifications p{
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.done{
+    color: green !important;
+}
+
+#createScreen {
+    height: 100%;
+    overflow-y: auto;
+}
+
+#view-tasks{
+    height: 100%;
+    overflow-y: auto;
+}
+
+#tasks {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#tasks tr {
+    text-align: center;
+}
+
+#tasks button {
+    margin-right: 1rem;
+}
+
+#criteria {
+    margin-right: 1rem;
+}
+
+.search-bar {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 35%;
+}

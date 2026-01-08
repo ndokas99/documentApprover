@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <style>
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+
+        .btn-primary {
+            color: white;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <title>DAS Notification</title>
+</head>
+<body>
+<p>Hello {{ name }}</p>
+<br>
+<p>Kindly approve the {{ doc }} document shared by {{ first }} {{ last }}.</p>
+<br>
+<button class="btn btn-primary">
+    <a href="{{ addr }}/approve/{{ doc }}">Approve</a>
+</button>
+</body>
+</html>
